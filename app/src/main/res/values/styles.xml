@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="NoTitleBar" parent="android:Theme.DeviceDefault.Dialog.NoActionBar" />
+
+    <style name="textStyleLDB" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

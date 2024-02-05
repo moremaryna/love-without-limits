@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="marynakuzmenko.love_poems.YakbyTyZnav">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageProAvtorkuBig"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/pro_avtorku_intro"
+                android:cropToPadding="false"
+                android:scaleType="fitStart"
+                android:src="@drawable/proavtorkubig" />
+
+            <TextView
+                android:id="@+id/aboutauthor_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/imageProAvtorkuBig"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:paddingTop="8dp"
+                android:text="@string/pro_avtorku"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/proavtorku_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageProAvtorkuBig"
+                android:layout_marginBottom="16dp"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:paddingTop="8dp"
+                android:textSize="18sp"/>
+
+            <marynakuzmenko.love_poems.MyTextView
+                android:id="@+id/copyrights"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/proavtorku_text"
+                android:layout_marginBottom="16dp"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:text="@string/copyrightsofall"
+                android:textSize="16sp"
+                android:typeface="normal" />
+
+            <marynakuzmenko.love_poems.MyTextView
+                android:id="@+id/thanks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/copyrights"
+                android:layout_marginBottom="16dp"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:text="@string/thanksto"
+                android:textSize="16sp"
+                android:typeface="normal" />
+
+            <marynakuzmenko.love_poems.MyTextView
+                android:id="@+id/disclaimer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/thanks"
+                android:layout_marginBottom="16dp"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:text="@string/truth"
+                android:textSize="16sp"
+                android:typeface="normal" />
+
+            <Button
+                android:id="@+id/messageSend"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/disclaimer"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+                android:layout_marginTop="20dp"
+                android:background="#ededed"
+                android:clickable="true"
+                android:onClick="sendMessage"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:text="@string/writeme"
+                android:textColor="#6b6b6b"/>
+
+            <Button
+                android:id="@+id/goWww"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/messageSend"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+                android:layout_marginTop="20dp"
+                android:background="#ededed"
+                android:clickable="true"
+                android:onClick="goWww"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:text="@string/welcometoweb"
+                android:textAlignment="inherit"
+                android:textColor="#6b6b6b"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/goWww"
+                android:paddingBottom="4dp"
+                android:paddingEnd="8dp"
+                android:paddingLeft="32dp"
+                android:paddingRight="8dp"
+                android:paddingStart="32dp"
+                android:text="@string/copyright"
+                android:textColor="#818181"
+                android:textSize="12sp"/>
+        </RelativeLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

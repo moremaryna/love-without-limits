@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Лише до безтями</string>
+    <string name="app_description">Збірка віршів про любов</string>
+    <string name="year">2017</string>
+    <string name="facebook_app_id">370848463339575</string>
+    <string name="yakby_ty_znav">Якби ти знав</string>
+    <string name="yakby_ty_znav_intro">Якби ти знав \nЯк мріється під вечір. </string>
+    <string name="ne_mozhu">Тебе не чекати</string>
+    <string name="ne_mozhu_intro">Я не можу тебе не чекати.\nІ мені ти хоч вір, хоч не вір.</string>
+    <string name="kazka_zhittya">Казка життя</string>
+    <string name="kazka_zhittya_intro">А вранці \nЇї вже чекала кава.</string>
+    <string name="pro_avtorku">Про проект</string>
+    <string name="pro_avtorku_intro">Якщо в трьох словах - тут про копірайти, подяки та зізнання :)</string>
+    <string name="schastu_zhittevoi_oseni">Щастю життєвої осені</string>
+    <string name="schastu_zhittevoi_oseni_intro">І попливли роки, \nЯк листя по воді.</string>
+    <string name="akrovirsh_pro_lubov">Акровірш Л.</string>
+    <string name="akrovirsh_pro_lubov_intro">Ласкава, всеосяжна, гарна \nЮнацько-дивна і безхмарна</string>
+    <string name="alubov">А любов</string>
+    <string name="alubov_intro">Дві людини і два серця,  \nЩо у ритмі одному б\'ється. </string>
+    <string name="schaslyviy">Щасливій відучора</string>
+    <string name="schaslyviy_intro">Я знаю,  \nТи - щаслива відучора</string>
+    <string name="pro_platonichne">Про платонічне</string>
+    <string name="pro_platonichne_intro">Твоя нетиповість \nМене провокує на роздуми. </string>
+    <string name="kazhit">Кажіть, що любите</string>
+    <string name="kazhit_intro">Кажіть, що любите. \nІ не мовчіть про щире.</string>
+    <string name="lubov_rozkishna">Любов розкішна</string>
+    <string name="lubov_rozkishna_intro">Любов розкішна,  \nКоли щиро люблять двоє</string>
+    <string name="dobeztyamy">Лише до безтями</string>
+    <string name="dobeztyamy_intro">Хочеться намалювати. \nАбо хоча б розповісти. </string>
+    <string name="ya_tebe">Я тебе</string>
+    <string name="ya_tebe_intro">Я писала ці слова \nНа водограях.</string>
+    <string name="share_this">Поділитися зі своєю людиною</string>
+    <string name="send_to">Поділитися цим віршем</string>
+    <string name="copyright">2017 &#169; Марина Кузьменко, збірка \'Лише до безтями\'</string>
+    <string name="sharethispoem">Поділитися цим віршем</string>
+    <string name="writeme">Написати Марині Кузьменко</string>
+    <string name="welcometoweb">Гайда на сайт Літературної Агенції</string>
+    <string name="truth">Зізнання. Поклавши одну руку на серце, а іншу - на клавіатуру, розповідаємо: авторкою віршів є Марина Кузьменко (meri.kiev.ua). Ця збірка є першою з серії мобільних додатків української літератури, створених Літературною Агенцією. Прямо зараз ми допомагаємо україномовним віршам боротися за місце у кожному смартфоні. Будьте з нами - далі буде ще цікавіше ;) </string>
+    <string name="thanksto">Подяки - це однозначно плюси у чиїсь карми. Публічно хочеться подякувати Udacity.com, Developer.android.com та Stackoverflow.com. І ще - Ubuntu та Bitbucket. Приватні подяки будуть роздані у персональному форматі ;). </string>
+    <string name="copyrightsofall">Копірайти - це важлива складова чистої совісті цього мобільного додатка. Мотивацією для оформлення додатка в такому стилі послужили фото з Інстаграму (avenue348, bmphotography.studio, dancingburningman, dia_costea, dslr.world_, d_fordesign, model_1one), Pinterest, а також сімейного фотоальбому Антона Салко і Тані Процюк. </string>
+
+
+</resources>
